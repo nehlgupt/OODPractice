@@ -22,6 +22,7 @@ public class ParkingLotService {
                 } else {
                     System.out.println("Sorry! Car spot not available");
                 }
+            }
 
                 if (actionType.equals("Exit")) {
                     System.out.println("Welcome to car exit, please enter car number");
@@ -34,7 +35,7 @@ public class ParkingLotService {
                 }
 
                 actionType = scn.nextLine();
-            }
+
         }
     }
 }

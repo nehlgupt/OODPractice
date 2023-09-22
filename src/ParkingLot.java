@@ -45,6 +45,7 @@ public class ParkingLot {
             ParkingSpot parkingSpotNew = new ParkingSpot();
             parkingSpots.add(parkingSpotNew);
             availableParkingSpots.put(carType, parkingSpots);
+            System.out.println("Thanks! Visit again");
         } else {
             System.out.println("Invalid car number");
         }
